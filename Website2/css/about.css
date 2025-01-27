@@ -1,0 +1,250 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #182B44;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 60%;
+    height: 100px;
+}
+
+.hoofdbalk {
+    display: flex;
+    flex-direction: row;
+    align-content: end;
+    justify-content: space-evenly;
+    margin-left: 40%;
+    width: 60%;
+    height: 63px;
+}
+
+.home {
+    display: flex;
+    flex-direction: row;
+    color: #DDD5CB;
+    font-size: 24px;
+    font-family: Times New Roman;
+    margin-top: 16px;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    color: #DDD5CB;
+    font-size: 24px;
+    font-family: Times New Roman;
+    margin-top: 16px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    color: #DDD5CB;
+    font-size: 24px;
+    font-family: Times New Roman;
+    margin-top: 16px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    color: #DDD5CB;
+    font-size: 24px;
+    font-family: Times New Roman;
+    margin-top: 16px;
+}
+
+.lijn-mb {
+    background-color: #DDD5CB;
+    width: 100%;
+    height: 1px;
+    margin: 0%;
+}
+
+.about {
+    display: flex;
+    color: #DDD5CB;
+    font-size: 30px;
+    margin-left: 66px;
+    font-family: Times New Roman;
+
+}
+
+.text-about {
+    display: flex;
+    flex-direction: column;
+    margin-left: 66px;
+    height: auto;
+    width: 300px;
+}
+
+.name {
+    display: flex;
+    margin: 0;
+    color: #DDD5CB;
+    font-size: 24px;
+    font-family: Times New Roman;
+}
+
+.age {
+    display: flex;
+    margin-top: 1;
+    color: #DDD5CB;
+    font-size: 24px;
+    font-family: Times New Roman;
+}
+
+.iamfrom {
+    display: flex;
+    margin-top: 0;
+    color: #DDD5CB;
+    font-size: 24px;
+    font-family: Times New Roman;
+}
+
+.study {
+    display: flex;
+    margin-top: 0;
+    color: #DDD5CB;
+    font-size: 24px;
+    font-family: Times New Roman;
+}
+
+.completed {
+    display: flex;
+    margin-top: 0;
+    color: #DDD5CB;
+    font-size: 24px;
+    font-family: Times New Roman;
+}
+
+.busywith {
+    display: flex;
+    margin: 0;
+    color: #DDD5CB;
+    font-size: 24px;
+    font-family: Times New Roman;
+}
+
+.foto-container {
+    display: flex;
+    background-color: #DDD5CB;
+    width: 400px;
+    height: 400px;
+    margin-left: 600px;
+    border-radius: 40px;
+    margin-top: 25px;
+}
+
+.foto {
+    display: flex;
+    align-items: center;
+    margin-left: 170px;
+    font-size: 30px;
+    margin-top: -5px;
+
+}
+
+.pagina {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+#projects {
+    background-color: #182B44;
+    padding: 0;
+    text-align: center;
+}
+
+#projects nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#projects nav ul li {
+    margin-bottom: 15px;
+}
+
+#projects nav ul li a {
+    text-decoration: none;
+    color: #DDD5CB;
+    font-weight: bold;
+    font-family: Times New Roman;
+    font-size: 30px;
+}
+
+#projects nav ul li a:not(.projects) {
+    font-size: 24px
+}
+
+#projects nav ul li a:hover {
+    color: white;
+}
+
+#projects nav ul li.projects a {
+    font-size: 30px;
+    margin-top: -5px;
+}
+
+#footer {
+    width: 100%;
+    height: auto;
+    background-color: #178DAD;
+    color: #DDD5CB;
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: auto;
+}
+
+.social-links {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    width: 150px
+}
+
+.social-icon {
+    margin-right: 50px;
+    width: 40px;
+    height: 77px;
+    transition: transform 0.3s;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+}
+
+.contact-info {
+    text-align: right;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.contact-info a {
+    color: #DDD5CB;
+
+    text-decoration: none;
+
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+
+}
